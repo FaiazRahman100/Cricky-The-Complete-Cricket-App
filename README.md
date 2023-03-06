@@ -1,6 +1,3 @@
-# iOS_Faiaz_FinalProject
-
-
 # Cricky - The Cricket World
 
 Using the Cricket Live Mobile App - "Cricky" , User can have the greatest cricket game experience of all time. It is claimed by the creator that "Cricky" is the most detail cricket app ever created in the country. 
