@@ -1,0 +1,26 @@
+PODS:
+  - LZViewPager (1.2.5):
+    - SnapKit (~> 5.0.0)
+  - SDWebImage (5.14.3):
+    - SDWebImage/Core (= 5.14.3)
+  - SDWebImage/Core (5.14.3)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - LZViewPager
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - LZViewPager
+    - SDWebImage
+    - SnapKit
+
+SPEC CHECKSUMS:
+  LZViewPager: 89ddd98246d54b52bde14c8d91702f946d6f8893
+  SDWebImage: 9c36e66c8ce4620b41a7407698dda44211a96764
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 8d67427ef8c694faed4bc95b48b1a19d974e7817
+
+COCOAPODS: 1.11.3

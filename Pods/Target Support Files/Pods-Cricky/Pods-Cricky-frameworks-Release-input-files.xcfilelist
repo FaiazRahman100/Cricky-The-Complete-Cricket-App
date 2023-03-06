@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Cricky/Pods-Cricky-frameworks.sh
+${BUILT_PRODUCTS_DIR}/LZViewPager/LZViewPager.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework

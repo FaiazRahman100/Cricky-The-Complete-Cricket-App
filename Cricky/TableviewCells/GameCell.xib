@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="178" id="KGk-i7-Jjw" customClass="GameCell" customModule="Cricky" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="178"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="178"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WoV-2A-SBF">
+                        <rect key="frame" x="10" y="10" width="376" height="160"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Game" translatesAutoresizingMaskIntoConstraints="NO" id="qmR-qe-HiC">
+                                <rect key="frame" x="0.0" y="0.0" width="376" height="160"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="qmR-qe-HiC" secondAttribute="trailing" id="49N-aO-mQG"/>
+                            <constraint firstAttribute="height" constant="160" id="7l3-B8-Sj9"/>
+                            <constraint firstAttribute="width" constant="376" id="CcA-wg-3eR"/>
+                            <constraint firstAttribute="bottom" secondItem="qmR-qe-HiC" secondAttribute="bottom" id="D3S-BF-9RC"/>
+                            <constraint firstItem="qmR-qe-HiC" firstAttribute="leading" secondItem="WoV-2A-SBF" secondAttribute="leading" id="LLG-Qx-hh4"/>
+                            <constraint firstItem="qmR-qe-HiC" firstAttribute="top" secondItem="WoV-2A-SBF" secondAttribute="top" id="zUy-y8-QhF"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="WoV-2A-SBF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="8Qx-Tf-PSN"/>
+                    <constraint firstAttribute="bottom" secondItem="WoV-2A-SBF" secondAttribute="bottom" constant="10" id="n0N-g3-0ct"/>
+                    <constraint firstAttribute="trailing" secondItem="WoV-2A-SBF" secondAttribute="trailing" constant="10" id="wf6-dH-00e"/>
+                    <constraint firstItem="WoV-2A-SBF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="zU1-mT-Two"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bgView" destination="WoV-2A-SBF" id="8iG-xJ-U5g"/>
+            </connections>
+            <point key="canvasLocation" x="92.307692307692307" y="35.545023696682463"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Game" width="570" height="299"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

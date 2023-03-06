@@ -1,0 +1,6 @@
+framework module Pods_Cricky_CrickyUITests {
+  umbrella header "Pods-Cricky-CrickyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
