@@ -1,6 +1,12 @@
 # Cricky - The Cricket World
 
-Using the Cricket Live Mobile App - "Cricky" , User can have the greatest cricket game experience of all time. It is claimed by the creator that "Cricky" is the most detail cricket app ever created in the country. 
+Cricky is a comprehensive cricket app for iOS devices, offering
+live scores, fixtures, rankings, and player data. Developed using
+UIKit, CoreData, and CocoaPods, it seamlessly integrates real-time
+match data, player information, and tournament fixtures through
+the Cricket API by Sportmonks. The app follows a well-structured
+and scalable architecture, utilizing MVVM, Builder, and Singleton de-
+sign patterns
 
 
 ## Authors
